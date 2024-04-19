@@ -1,0 +1,42 @@
+
+.user-data-list li {
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.name-box h2 {
+  margin: 0;
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gender-box h3 {
+  margin: 0;
+}
+
+.refresh-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.refresh-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-button button:hover {
+  background-color: #0056b3;
+}
