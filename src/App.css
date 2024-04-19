@@ -40,3 +40,7 @@
 .refresh-button button:hover {
   background-color: #0056b3;
 }
+.user-data-list li div {
+  width: 25%;
+}
+

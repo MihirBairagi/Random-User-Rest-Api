@@ -32,6 +32,12 @@ const RandomUserComponent = () => {
             <div className="gender-box">
               <h3>Gender: {user.gender}</h3>
             </div>
+            <div className="gender-box">
+              <h3>number: {user.location.street.number}</h3>
+              <h3>location: {user.location.city}</h3>
+              <h3>pass: {user.location.postcode}</h3>
+              <h3>emal: {user.email}</h3>
+            </div>
           </li>
         ))}
       </ul>
